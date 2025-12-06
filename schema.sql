@@ -31,5 +31,5 @@ CREATE TABLE transactions (
     customer_id INT,
     country VARCHAR(50),
     line_total AS (quantity * unit_price) PERSISTED,
-    UNIQUE(invoice_no) -- added constraint to prevent duplicating
+    UNIQUE(invoice_no, stock_code, customer_id) -- added multi column constraint to prevent duplicating
 );
