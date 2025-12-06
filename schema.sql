@@ -30,5 +30,6 @@ CREATE TABLE transactions (
     unit_price DECIMAL(10,2),
     customer_id INT,
     country VARCHAR(50),
-    line_total AS (quantity * unit_price) PERSISTED
+    line_total AS (quantity * unit_price) PERSISTED,
+    UNIQUE(invoice_no) -- added constraint to prevent duplicating
 );
