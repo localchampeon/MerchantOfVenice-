@@ -139,6 +139,9 @@ def main():
     df1 = df1[df1['Quantity'] > 0]
     
     print(f"{len(df0) -len(df1)} rows have been removed")
+    #drop duplicate values
+    df2 = df1.drop_duplicates(subset=['InvoiceNo', 'StockCode', 'CustomerID'])
+    print(f"{len(df1)-len(df2)} duplicate values removed")
 
     load_transcations(df1)
     load_customers()
