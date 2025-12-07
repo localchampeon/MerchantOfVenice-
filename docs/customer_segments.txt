@@ -1,0 +1,10 @@
+CUSTOMER SEGMENTS:
+          segment  customers    avg_spent  total_revenue
+0       Champions        911  6124.642480     5579549.30
+1           Loyal        823  1720.528250     1415994.75
+2    Big Spenders        358  2863.409608     1025100.64
+3            Lost        991   285.307729      282739.96
+4          Others        501   414.234590      207531.53
+5         At Risk        290   531.077344      154012.43
+6       Promising        311   316.968038       98577.06
+7  Need Attention        153   530.985816       81240.83
