@@ -73,7 +73,7 @@ def load_customers():
                 MIN(invoice_date),
                 MAX(invoice_date),
                 SUM(quantity),
-                SUM(unit_price)
+                SUM(line_total)
             FROM
                 transactions
             GROUP BY customer_id        
