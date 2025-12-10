@@ -1,0 +1,116 @@
+
+🛒Products Analytics📊
+
+-- Top 10 products 🛒 by revenue generated 💵 (minimum 3 purchase)
+                       description  purchase freq   revenue
+          REGENCY CAKESTAND 3 TIER           1703 141946.00
+WHITE HANGING HEART T-LIGHT HOLDER           1978 100202.30
+           JUMBO BAG RED RETROSPOT           1600  84962.28
+    MEDIUM CERAMIC TOP STORAGE JAR            195  81405.48
+                           POSTAGE           1099  77803.96
+                     PARTY BUNTING           1379  68614.98
+     ASSORTED COLOUR BIRD ORNAMENT           1375  56191.64
+                RABBIT NIGHT LIGHT            801  51070.28
+        PICNIC BASKET WICKER SMALL            234  47330.50
+                     CHILLI LIGHTS            519  46235.41
+
+Top 10 product🛒 by quantity sold📈💰📊 (minimum 3 purchases)
+                       description  quantity
+    MEDIUM CERAMIC TOP STORAGE JAR     77907
+ WORLD WAR 2 GLIDERS ASSTD DESIGNS     54319
+              SMALL POPCORN HOLDER     48984
+           JUMBO BAG RED RETROSPOT     46040
+WHITE HANGING HEART T-LIGHT HOLDER     36646
+     ASSORTED COLOUR BIRD ORNAMENT     35132
+   PACK OF 72 RETROSPOT CAKE CASES     33616
+                RABBIT NIGHT LIGHT     27066
+           MINI PAINT SET VINTAGE      26076
+        PACK OF 12 LONDON TISSUES      25259
+
+--Time series 🕒📊 for top product🏆 by revenue 💵 (minimum 3 purchases). First 20 buys
+stock_code              description       date
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-01
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-01
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-01
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-01
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-01
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-01
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-01
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-01
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-02
+     22423 REGENCY CAKESTAND 3 TIER 2010-12-03
+
+Top 10 Products 🛒 by Consistent Sales Velocity 🚀: Monthly Average Quantity Sold
+                       description  avg_monthly_sales
+    MEDIUM CERAMIC TOP STORAGE JAR               8656
+ WORLD WAR 2 GLIDERS ASSTD DESIGNS               4526
+              SMALL POPCORN HOLDER               4082
+           JUMBO BAG RED RETROSPOT               3836
+                RABBIT NIGHT LIGHT               3383
+WHITE HANGING HEART T-LIGHT HOLDER               3053
+     ASSORTED COLOUR BIRD ORNAMENT               2927
+   PACK OF 72 RETROSPOT CAKE CASES               2801
+          JUMBO BAG VINTAGE DOILY                2397
+           MINI PAINT SET VINTAGE                2173
+
+📉💵 TOP 10 UNDER PERFORMING PRODUCTS by Low Revenue: Products that generate very little money.
+stock_code                         description  revenue
+      PADS          PADS TO MATCH ALL CUSHIONS     0.00
+     84227           HEN HOUSE W CHICK IN NEST     0.42
+     21268            VINTAGE BLUE TINSEL REEL     0.84
+     90104          PURPLE FRANGIPANI HAIRCLIP     0.85
+     90084     PINK CRYSTAL GUITAR PHONE CHARM     0.85
+    84201C      HAPPY BIRTHDAY CARD TEDDY/CAKE     0.95
+    84206B      CAT WITH SUNGLASSES BLANK CARD     0.95
+     84990 60 GOLD AND SILVER FAIRY CAKE CASES     1.10
+    35597B            BLACKCHRISTMAS TREE 30CM     1.25
+    90128B   BLUE LEAVES AND BEADS PHONE CHARM     1.25
+
+🛒📉 Underperforming by Low Sales Volume: Products customers rarely buy — low total quantity.
+stock_code                         description  quantity
+     21895       POTTING SHED SOW 'N' GROW SET         1
+     47579           TEA TIME BREAKFAST BASKET         1
+    90181A    AMBER GLASS/SHELL/PEARL NECKLACE         1
+     84551                 CROCHET DOG KEYRING         1
+    90130A        WHITE STONE/CRYSTAL EARRINGS         1
+    90065B BLACK VINT ART DEC CRYSTAL BRACELET         1
+    47503J    SET/3 FLORAL GARDEN TOOLS IN BAG         1
+    90152B BLUE/GREEN SHELL NECKLACE W PENDANT         1
+    84613C  BLUE NEW BAROQUE FLOCK CANDLESTICK         1
+    35597A      DUSTY PINK CHRISTMAS TREE 30CM         1
+
+📉🛒 TOP 10 Underperforming by Low Purchase Frequency: Products that appear in very few orders.
+stock_code                         description  frequency
+    84877A           PINK ROUND COMPACT MIRROR          1
+     90046          WHITE WITH METAL BAG CHARM          1
+    90024C    NEW BAROQUE B'FLY NECKLACE GREEN          1
+     21667          GLASS CAKE COVER AND PLATE          1
+     21895       POTTING SHED SOW 'N' GROW SET          1
+     90074      BLACK DIAMOND CLUSTER NECKLACE          1
+     37330                    BIG POLKADOT MUG          1
+     90028 NEW BAROQUE LARGE NECKLACE BLK/WHIT          1
+     47579           TEA TIME BREAKFAST BASKET          1
+     90076    MONTANA DIAMOND CLUSTER EARRINGS          1
+
+🕒📉 TOP 10 Underperforming by Slow Sales Velocity: Products that sell slowly over time (useful for time-series analysis).
+                     description  avg_monthly_sales
+   S/2 BEACH HUT TREASURE CHESTS                  1
+        DIAMANTE NECKLACE PURPLE                  1
+   POTTING SHED SOW 'N' GROW SET                  1
+           ECONOMY HOLIDAY PURSE                  1
+ANT COPPER RED BOUDICCA BRACELET                  1
+ GREEN  DIAMANTE PEN IN GIFT BOX                  1
+       TEA TIME BREAKFAST BASKET                  1
+ PINK YELLOW PATCH CUSHION COVER                  1
+AMBER GLASS/SHELL/PEARL NECKLACE                  1
+             CROCHET DOG KEYRING                  1
