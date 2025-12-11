@@ -84,4 +84,22 @@ Building in public | Full Stack Data Analytics
 **Day 1 Status:** Foundation Complete ✅  
 **Focus Tomorrow:** Analysis & Insights
 
-*Last updated: 2025-12-06
+## Progress
+
+### Week 1: Data Foundation & Analysis ✅
+- [x] Database design & data loading
+- [x] Customer segmentation (RFM)
+- [x] Product performance analysis
+- [x] Interactive Plotly dashboard with 5 visualizations
+- [x] Exported HTML dashboard
+
+### Visualizations Created
+1. Monthly Revenue Trend (Line Chart)
+2. Customer Segment Distribution (Pie Chart)
+3. Top 10 Products by Revenue (Bar Chart)
+4. Geographic Revenue Distribution (Bar Chart)
+5. RFM Customer Analysis (Scatter Plot)
+
+**View Dashboard:** `visualizations/merchant_of_venice_dashboard.html`
+
+*Last updated: 2025-12-11
