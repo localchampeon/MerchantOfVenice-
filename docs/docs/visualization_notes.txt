@@ -1,0 +1,17 @@
+MERCHANT OF VENICE - VISUALIZATION INSIGHTS
+
+Dashboard Charts:
+1. Monthly Revenue Trend - Shows business growth over 2011
+2. Customer Segments - Distribution of customer value tiers
+3. Top 10 Products - Best performing items by revenue
+4. Revenue by Country - Geographic performance analysis
+5. RFM Scatter Plot - Customer clustering by behavior
+
+Key Insights:
+- Revenue Spikes Toward the End of the Year indicating heavy seasonal demand
+- Product Sales Are Power-Law Distributed. a few products generate the largest revenue
+- Best month: November
+- Top customer segment: Champions
+- Geographic concentration: most customers come locally from the UK
+
+Tools: Python, Plotly, SQL Server, Pandas
