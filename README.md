@@ -22,6 +22,8 @@ Designed an end-to-end e-commerce analytics pipeline: cleaned and transformed ra
 
 ## Database Schema
 
+
+
 ### Tables:
 1. **transactions** (~400k rows) - All purchase events
 2. **customers** (~4k rows) - Customer master with aggregates
@@ -102,4 +104,41 @@ Building in public | Full Stack Data Analytics
 
 **View Dashboard:** `visualizations/merchant_of_venice_dashboard.html`
 
-*Last updated: 2025-12-11
+
+### Power BI Dashboard
+Two-page executive and analytical dashboard:
+**Page 1: Executive Summary**
+![Executive Summary](visualizations/page1_executive_summary.png)
+- Total Revenue: $8.84M
+- Total Customers: 4,338
+- Total Orders: 18.53K
+- Average Order Value: $477.27
+- Monthly revenue trends with customer activity
+- Geographic revenue distribution
+
+**Page 2: Customer & Product Analysis**
+![Customer Product Analysis](visualizations/page2_customer_product_analysis.png)
+- Customer segmentation (RFM analysis)
+- Top 10 products by revenue
+- Detailed RFM metrics by segment
+**Tools:** Power BI Desktop, SQL Server, DAX
+
+## Project Progress
+
+### Week 1: Complete ✅
+- [x] Database design & ETL pipeline
+- [x] Customer segmentation (RFM)
+- [x] Product performance analysis
+- [x] Interactive Plotly dashboard
+- [x] Power BI executive dashboard
+- [x] Full documentation
+- [ ] 
+## Skills Demonstrated
+- Python (pandas, plotly, pyodbc)
+- SQL Server (database design, queries, optimization)
+- Data visualization (Plotly, Power BI)
+- Business analytics (RFM, KPIs, trend analysis)
+- ETL pipeline development
+- Dashboard design principles
+
+- *Last updated: 2025-12-16
